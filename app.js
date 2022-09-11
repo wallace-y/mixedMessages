@@ -237,17 +237,17 @@ const arrayOfObjects = [
   "A train",
 ];
 
+let buttonTarget = document.getElementById("print-message");
+
 const randomWordGenerator = () => {
   let object1Number = Math.ceil(Math.random() * arrayOfObjects.length);
   let object2Number = Math.ceil(Math.random() * arrayOfObjects.length);
   let action1Number = Math.ceil(Math.random() * arrayOfActions.length);
   let artist1Number = Math.ceil(Math.random() * arrayOfArtists.length);
 
-  return console.log(
-    `${arrayOfObjects[object1Number]} is ${arrayOfActions[
-      action1Number
-    ].toLowerCase()} ${arrayOfObjects[object2Number]} in the style of ${
-      arrayOfArtists[artist1Number]
-    }`
-  );
+  buttonTarget.innerHTML = `${
+    arrayOfObjects[object1Number]
+  } is ${arrayOfActions[action1Number].toLowerCase()} ${arrayOfObjects[
+    object2Number
+  ].toLowerCase()} in the style of ${arrayOfArtists[artist1Number]}`;
 };
