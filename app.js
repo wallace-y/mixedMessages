@@ -246,8 +246,8 @@ const randomWordGenerator = () => {
   return console.log(
     `${arrayOfObjects[object1Number]} is ${arrayOfActions[
       action1Number
-    ].toLowerCase()} ${arrayOfObjects[
-      object2Number
-    ].toLowerCase()} in the style of ${arrayOfArtists[artist1Number]}`
+    ].toLowerCase()} ${arrayOfObjects[object2Number]} in the style of ${
+      arrayOfArtists[artist1Number]
+    }`
   );
 };
