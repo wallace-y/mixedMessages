@@ -12,34 +12,6 @@ body {
   background-color: #404472;
 }
 
-/* Add a black background color to the top navigation */
-.topnav {
-  background-color: #191c40;
-  overflow: hidden;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: #c3c0c0;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 30px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: #191c40;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #b29758;
-  color: #c3c0c0;
-}
-
 /* styling question container */
 
 .center-container {
