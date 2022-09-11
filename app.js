@@ -243,11 +243,14 @@ const randomWordGenerator = () => {
   let object1Number = Math.ceil(Math.random() * arrayOfObjects.length);
   let object2Number = Math.ceil(Math.random() * arrayOfObjects.length);
   let action1Number = Math.ceil(Math.random() * arrayOfActions.length);
+  let action2Number = Math.ceil(Math.random() * arrayOfActions.length);
   let artist1Number = Math.ceil(Math.random() * arrayOfArtists.length);
 
   buttonTarget.innerHTML = `${
     arrayOfObjects[object1Number]
-  } is ${arrayOfActions[action1Number].toLowerCase()} ${arrayOfObjects[
+  } that is ${arrayOfActions[action1Number].toLowerCase()} ${arrayOfObjects[
     object2Number
+  ].toLowerCase()} whilst ${arrayOfActions[
+    action2Number
   ].toLowerCase()} in the style of ${arrayOfArtists[artist1Number]}`;
 };
