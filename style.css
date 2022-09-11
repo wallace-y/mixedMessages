@@ -44,3 +44,21 @@ body {
   border: 1px solid #b29758;
   padding: 10px;
 }
+
+/* styling  generate button */
+.generate-button {
+  background-color: #b29758;
+  color: #191c40;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin: 10px;
+  padding: 5px;
+  border-radius: 16px;
+  transition-duration: 0.4s;
+}
+
+.generate-button:hover {
+  background-color: #c3c0c0;
+  color: #191c40;
+}
