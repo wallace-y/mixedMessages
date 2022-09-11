@@ -48,9 +48,10 @@ body {
   top: 50%;
   transform: translate(-50%, -50%);
   margin: auto;
-  width: 40%;
+  width: 60%;
   border: 1px solid #b29758;
   padding: 10px;
+  border-radius: 16px;
 }
 
 /* styling  generate button */
@@ -58,7 +59,7 @@ body {
   background-color: #b29758;
   color: #191c40;
   position: relative;
-  margin: 10px;
+  margin: 20px;
   padding: 5px;
   border-radius: 16px;
   transition-duration: 0.4s;
