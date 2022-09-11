@@ -31,3 +31,16 @@ body {
   background-color: #b29758;
   color: #c3c0c0;
 }
+
+/* styling question container */
+
+.center-container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  width: 40%;
+  border: 1px solid #b29758;
+  padding: 10px;
+}
