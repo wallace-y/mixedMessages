@@ -265,9 +265,7 @@ const randomWordGenerator = () => {
 
   buttonTarget.innerHTML = `${
     arrayOfObjects[object1Number]
-  } that is ${arrayOfActions[action1Number].toLowerCase()} ${arrayOfObjects[
-    object2Number
-  ].toLowerCase()} whilst ${arrayOfActions[
-    action2Number
-  ].toLowerCase()} in the style of ${arrayOfArtists[artist1Number]}`;
+  } that is ${arrayOfActions[action1Number].toLowerCase()} in the style of ${
+    arrayOfArtists[artist1Number]
+  }`;
 };
