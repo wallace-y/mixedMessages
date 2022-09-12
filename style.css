@@ -63,3 +63,14 @@ body {
 .instructions-list-item {
   text-align: left;
 }
+
+/* moving header */
+.header {
+  position: absolute;
+  left: 50%;
+  top: 25%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
