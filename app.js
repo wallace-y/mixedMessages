@@ -257,11 +257,11 @@ const arrayOfObjects = [
 let buttonTarget = document.getElementById("print-message");
 
 const randomWordGenerator = () => {
-  let object1Number = Math.ceil(Math.random() * arrayOfObjects.length);
-  let object2Number = Math.ceil(Math.random() * arrayOfObjects.length);
-  let action1Number = Math.ceil(Math.random() * arrayOfActions.length);
-  let action2Number = Math.ceil(Math.random() * arrayOfActions.length);
-  let artist1Number = Math.ceil(Math.random() * arrayOfArtists.length);
+  let object1Number = Math.floor(Math.random() * arrayOfObjects.length);
+  let object2Number = Math.floor(Math.random() * arrayOfObjects.length);
+  let action1Number = Math.floor(Math.random() * arrayOfActions.length);
+  let action2Number = Math.floor(Math.random() * arrayOfActions.length);
+  let artist1Number = Math.floor(Math.random() * arrayOfArtists.length);
 
   buttonTarget.innerHTML = `${
     arrayOfObjects[object1Number]
