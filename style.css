@@ -41,3 +41,25 @@ body {
   background-color: #c3c0c0;
   color: #191c40;
 }
+
+/* Styling the instructions container */
+
+.instructions-container {
+  position: absolute;
+  left: 50%;
+  top: 75%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  width: 60%;
+  border: 1px solid #b29758;
+  padding: 10px;
+  border-radius: 16px;
+}
+
+.instructions-list {
+  margin-left: 5%;
+}
+
+.instructions-list-item {
+  text-align: left;
+}
