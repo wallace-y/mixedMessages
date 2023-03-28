@@ -202,35 +202,6 @@ const arrayOfArtists = [
   "Hiroshi Sugimoto",
 ];
 
-const arrayOfActions = [
-  "Working",
-  "Singing",
-  "Slapping",
-  "Dunking",
-  "Flying",
-  "Crying",
-  "Thinking",
-  "Looking",
-  "Feeling",
-  "Leaving",
-  "Helping",
-  "Talking",
-  "Turning",
-  "Starting",
-  "Hearing",
-  "Playing",
-  "Running",
-  "Swimming",
-  "Cycling",
-  "Sitting",
-  "Paying",
-  "Learning",
-  "Watching",
-  "Stopping",
-  "Reading",
-  "Walking",
-];
-
 const arrayOfObjects = [
   "A man",
   "A woman",
@@ -258,14 +229,11 @@ let buttonTarget = document.getElementById("print-message");
 
 const randomWordGenerator = () => {
   let object1Number = Math.floor(Math.random() * arrayOfObjects.length);
-  let object2Number = Math.floor(Math.random() * arrayOfObjects.length);
-  let action1Number = Math.floor(Math.random() * arrayOfActions.length);
-  let action2Number = Math.floor(Math.random() * arrayOfActions.length);
   let artist1Number = Math.floor(Math.random() * arrayOfArtists.length);
 
   buttonTarget.innerHTML = `${
     arrayOfObjects[object1Number]
-  } that is ${arrayOfActions[action1Number].toLowerCase()} in the style of ${
+  } in the style of ${
     arrayOfArtists[artist1Number]
   }`;
 };
