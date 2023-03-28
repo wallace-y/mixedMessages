@@ -15,30 +15,39 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="px-4 py-5">
+    <div class="px-4 py-5 text-light">
       <h1 class="display-5 fw-bold">Generating a string of random text as a prompt for
-        <a href="https://openai.com/dall-e-2/" target="_blank">Dall-E</a>
+        <a class="link-secondary" href="https://openai.com/dall-e-2/" target="_blank">Dall-E</a>
       </h1>
-      <div class="col-lg-6 mx-auto">
-        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-          <button 
-                  type="button" 
-                  class="btn btn-primary btn-lg px-4 gap-3"
-                  onclick="randomWordGenerator()">
-                  Generate
-          </button>
-        </div>
-      </div>
-      <div class="empty-div py-2">
+    </div>
+
+    <div class="text-center text-light ">
+      <button 
+      type="button" 
+      class="btn btn-primary btn-lg px-4 btn-dark"
+      onclick="randomWordGenerator()">
+      Generate
+      </button>
+    </div>
+
+
+    <div class="px-4 py-5 text-light ">
+      <div class="empty-div py-2 text-center bg-dark border border-light rounded">
+        <h3>Your prompt:</h3>
         <p id="print-message"></p>
       </div>
-      <h2 class="display-5 fw-bold">How to use</h2>
-      <ol class="instructions-list">
-        <li class="instructions-list-item">Sign up for an account</li>
-        <li class="instructions-list-item">Generate a prompt from the above</li>
-        <li class="instructions-list-item">Enjoy your art!</li>
+    </div>
+
+    <div class="px-4 py-5 text-light">
+      <h2 class="display-6 fw-bold py-2">How to use</h2>
+      <ol class="list-group list-group-numbered">
+        <li class="list-group-item">Sign up for an account with Dall-E</li>
+        <li class="list-group-item">Generate a prompt from the above</li>
+        <li class="list-group-item">Pass the output to Dall-E and click generate </li>
+        <li class="list-group-item">Enjoy your art!</li>
       </ol>
     </div>
+
 
   
     <script src="app.js" async defer></script>
